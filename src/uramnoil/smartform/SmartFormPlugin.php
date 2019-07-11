@@ -1,7 +1,7 @@
 <?php
 
 
-namespace uramnoil¥smartform;
+namespace uramnoil\smartform;
 
 
 class SmartFormPlugin
