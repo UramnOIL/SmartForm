@@ -1,0 +1,12 @@
+name: SmartForm
+version: 0.1.0
+api: [3.0.0]
+main: uramnoil¥smartform¥SmartFormPlugin
+
+permissions:
+  smartform:
+    children:
+      smartform.form:
+        children:
+          samrtform.form.open_form:
+            default: true
