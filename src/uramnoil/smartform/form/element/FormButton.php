@@ -17,4 +17,11 @@ class FormButton extends Button {
 		$this->form = $form;
 		parent::__construct($text, $image);
 	}
+
+	/**
+	 * @return Form
+	 */
+	public function getForm(): Form {
+		return $this->form;
+	}
 }
